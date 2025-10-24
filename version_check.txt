@@ -7,6 +7,8 @@
 
 echo "Version Check"
 echo "Olá Mateus"
+echo "Olá mundo"
+echo "Hello"
 
 APACHE=$(/usr/local/apache/bin/apachectl -v|head -1|cut -d: -f2|awk '{print $1}'|cut -d/ -f2)
 PHP=$(/usr/local/bin/php -v |head -1|awk '{print $2}')
